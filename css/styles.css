@@ -1,0 +1,67 @@
+/* RED Academy Project 3 Basia Bodurov October 14, 2015 */
+
+
+/* Fonts */
+/*-----------------------------------------*/
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+}
+
+/* Extra Resetting */
+/*-----------------------------------------*/
+
+* {
+   box-sizing: border-box;
+}
+
+
+/* Mobile first CSS */
+
+
+
+
+/* Global */
+/*-----------------------------------------*/
+
+html {
+	color: #2e2e2e;
+    font-size: 12px;
+    text-align: center;
+	}
+
+body {
+	font-family: 'open_sans', Helvetica, sans-serif;
+	line-height: 1.2;
+	background: #2e2e2e;
+/* Media queries */
+/*-----------------------------------------*/
+
+/* Tablet */
+
+@media all and (min-width: 600px) {
+
+}
+
+/* Desktop */
+
+@media all and (min-width: 1000px) {
+
+}
