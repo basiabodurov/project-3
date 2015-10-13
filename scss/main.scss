@@ -1,0 +1,44 @@
+/* RED Academy Project 3 Basia Bodurov October 14, 2015 */
+
+@import "variables", "reset", "fonts", "mixin"
+
+/* Extra Resetting */
+
+* {
+   box-sizing: border-box;
+}
+
+/* Mobile first CSS */
+
+html {
+    font-size: $base-font-size;
+	}
+
+body {
+	font-family: $body-font;
+	line-height: $line-height;
+    font-size: $base-font-size;
+    color: $font-color;
+	@include bp(tablet) {
+		background-color: orange;
+	} 
+	@include bp(desktop) {
+		background-color: green;
+	}
+}
+
+button {
+    color: $button-color;
+}
+
+.wrapper {
+	display: flex;
+}
+
+.masthead {
+    
+}
+
+.search-banner {
+	background: url('../images/pattern.png') no-repeat center center fixed;
+}
