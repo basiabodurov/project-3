@@ -10,28 +10,29 @@
 	    <title>Instagrid</title>
 
 	    <link rel="stylesheet" href="css/main.css">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	</head>
 
 	<body>
 
-		<div class="wrapper">
-
-			<header class="masthead">
+			<header class="header">
 				<img src="images/instagrid-logo.svg" class="logo" alt="Instagrid logo"/>
-			</header>
 
-				<div class="search-banner">
+				<div class="search">
 					<img src="images/instagrid-icon.svg" class="insta-icon" alt="Instagrid icon"/>
-					<form action="action_page.php">
-						<input type="search" name="insta-search"><input type="submit">
+					<form action="#" id="album-search">
+						<input type="text" name="artist_name" id="artist-name" placeholder="Enter your search..."> <button type="submit" value="Get Albums"><i class="fa fa-search"></i></button>
 					</form>
 				</div>
-
+			</header>
+			<div class="wrap">
+				<!--<img src="images/search-tags.svg" class="search-tags" alt="Instagrid search screen"/>-->
+			<ul class="album-list"></ul>
+			</div>
 			<footer>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 				<script type="text/javascript" src="js/main.js"></script>
 			</footer>
-			
-		</div>
 
 	</body>
 

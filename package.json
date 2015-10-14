@@ -7,11 +7,21 @@
   "devDependencies": {
     "browser-sync": "^2.9.10",
     "gulp": "^3.9.0",
-    "gulp-sass": "^2.0.4"
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-watch": "^4.3.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "basia",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basiabodurov/project3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/basiabodurov/project3/issues"
+  },
+  "homepage": "https://github.com/basiabodurov/project3#readme"
 }
