@@ -1,25 +1,25 @@
 {
-  "name": "project-3",
+  "name": "project3",
   "version": "1.0.0",
-  "description": "project-3",
+  "description": "",
   "main": "gulpfile.js",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "browser-sync": "^2.9.10",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.2",
     "gulp-sass": "^2.0.4",
     "gulp-watch": "^4.3.5"
   },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "basia",
-  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/basiabodurov/project3.git"
   },
+  "author": "Basia Bodurov",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/basiabodurov/project3/issues"
   },
